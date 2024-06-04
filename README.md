@@ -9,7 +9,7 @@
 
 ## CREATE THE SERVER SIDE CERTIFICATE
 + You should be in "System/Certificate/Authorities"
-+ Click on the "Certificates" tab (screenshot 2.1)
++ Click on the "Certificates" tab ![file](assets/2.1.png) 
 + Click "Add"
 + We only need to modify the following values:
 1) **Add/Sign a New Certificate | Descriptive Name**: Use anything you wish
@@ -20,14 +20,14 @@
 
 ## CREATE THE OPENVPN USER
 + You should be in "System/Certificate/Certificates"
-+ Click on "System/User Manager" (screenshot 3.1)
++ Click on "System/User Manager" ![file](assets/3.1.png) 
 + Click on "Add"
 + You only need a username and a password here
 + Click "Save"
 
 ## CREATE THE OPENVPN USER CERTIFICATE
 + You should be in "System/User Manager/Users"
-+ Click on "System/Certificates" (screenshot 4.1)
++ Click on "System/Certificates" ![file](assets/4.1.png) 
 + Click on the "Certificates" tab 
 + Click "Add"
 + We only need to modify the following values:
@@ -38,7 +38,7 @@
 
 ## CREATE THE OPENVPN SERVER
 + You should be in "System/Certificates/Certificates"
-+ Click on "VPN/OpenVPN" (screenshot 5.1)
++ Click on "VPN/OpenVPN" ![file](assets/5.1.png) 
 + You should be in the "Servers" tab
 + Click "Add"
 + We only need to modify the following values:
@@ -53,14 +53,14 @@
 
 ## VERIFY OPENVPN SERVER IS ACTIVE
 + You should be in "VPN/OpenVPN/Servers"
-+ Click on "Status\System Logs" (screenshot 6.1)
-+ Click on the "OpenVPN" Tab (screenshot 6.2)
-+ Scroll down and look for "Initialization Sequence Completed" (screenshot 6.3)
++ Click on "Status\System Logs" ![file](assets/6.1.png) 
++ Click on the "OpenVPN" Tab ![file](assets/6.2.png) 
++ Scroll down and look for "Initialization Sequence Completed" ![file](assets/6.3.png) 
 
 ## CREATE FIREWALL RULES
 + You should be in "Status/System Logs/OpenVPN"
-+ Click on "Firewall\Rules" (screenshot 7.1)
-+ Click on the "OpenVPN" tab (screenshot 7.2)
++ Click on "Firewall\Rules" ![file](assets/7.1.png) 
++ Click on the "OpenVPN" tab ![file](assets/7.2.png) 
 + Click on "Add"
 + We only need to modify the following values:
 1) **Edit Firewall Rule | Protocol**: Any
@@ -69,7 +69,7 @@
 + Click "Save"
 + Click "Apply Changes"
 + You should be in "Firewall\Rules\OpenVPN"
-+ Click the "WAN" tab (screenshot 7.3)
++ Click the "WAN" tab ![file](assets/7.3.png) 
 + Click "Add"
 + We only need to modify the following values:
 1) **Edit Firewall Rule | Protocol**: UDP
@@ -80,17 +80,17 @@
 
 ## INSTALL OPENVPN CLIENT CONFIGURATION EXPORT UTILITY
 + You should be in "Firewall/Rules/WAN"
-+ Click on "System\Package Manager" (screenshot 8.1)
-+ Click on the "Available Packages" tab (screenshot 8.2)
++ Click on "System\Package Manager" ![file](assets/8.1.png) 
++ Click on the "Available Packages" tab ![file](assets/8.2.png) 
 + Search for "openvpn-Client-export"
 + Click "Install"
 + Click "Confirm"
 
 ## EXPORT THE CLIENT CONFIGURATION 
 + You should be in "System/Package Manager/Package Installer"
-+ Click "VPN\OpenVPN" (screenshot 9.1)
-+ Click on the "Client Export" tab (screenshot 9.2)
-+ Scroll down to "OpenVPN Clients" (screenshot 9.3
++ Click "VPN\OpenVPN" ![file](assets/9.1.png) 
++ Click on the "Client Export" tab ![file](assets/9.2.png) 
++ Scroll down to "OpenVPN Clients" ![file](assets/9.3.png) 
 + Export the configuration per your client needs
 
 From here you are ready to load up the configuration and connect to your OpenVPN server
