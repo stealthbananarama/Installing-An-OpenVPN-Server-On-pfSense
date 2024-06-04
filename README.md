@@ -1,5 +1,5 @@
 ## CREATE THE CA
-+ Go to "System/Certificates/Authorities" (screenshot 1.1)
++ Go to "System/Certificates/Authorities" ![file](assets/1.1.png) 
 + Click "Add"
 + We only need to modify the following values:
 1) **Create/Edit CA | Descriptive Name**: Use anything you wish
