@@ -44,8 +44,8 @@
 + We only need to modify the following values:
 1) **General Information | Description**: Use anything you wish
 2) **Mode Configuration | Server Mode**: Remote Access(SSL/TLS)
-3) **Cryptographic Settings | Server Certificate**: <Use server side certificate created earlier>
-4) **Tunnel Settings | IPv4 Tunnel Network**: <Use a subnet not already on the local network>
+3) **Cryptographic Settings | Server Certificate**: Use server side certificate created earlier
+4) **Tunnel Settings | IPv4 Tunnel Network**: Use a subnet not already on the local network
 5) **Tunnel Settings | Redirect IPv4 Gateway**: Checked (enables full tunnel mode)
 6) **Advanced Configuration | UDP Fast I/O**: Checked
 7) **Advanced Configuration | Gateway creation**: IPv4 Only
